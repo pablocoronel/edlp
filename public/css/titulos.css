@@ -1,0 +1,46 @@
+.jumbotron{
+	background-color: red;
+	color: white;
+	font-family: 'Asap', sans-serif;
+}
+	.jumbotron .container p{
+		color: white;
+	}
+#contenedor #locales, #internacionales{
+	margin-bottom: 30px;
+}
+	#contenedor img{
+		margin-bottom: 15px;
+	}
+	#contenedor p{
+		color: #484848;
+		font-size: 20px;
+		font-family: 'Noto Sans', sans-serif;
+	}
+
+.cadaTitulo{
+	border-top: 1px solid red;
+	background-color: #F7F7F7;
+}
+
+	.cadaTitulo h3{
+		color: red;
+	}
+	.cadaTitulo img{
+		border: 2px solid #BDBD00;
+	}
+
+.separacionSuperior{
+	height: 30px;
+}
+
+#locales span{
+	color: #C7C7C7;
+}
+#locales h2, #internacionales h2{
+	color: red;
+}
+
+#internacionales span{
+	color: #CECE00;
+}

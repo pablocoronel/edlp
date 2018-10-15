@@ -1,0 +1,163 @@
+#headerMenuPrincipal{
+	margin-bottom: 50px;
+}
+	#navMenuPrincipal{
+		background-color: #FFFFFF;
+	}
+	#logoMenuPrincipal{
+		position: relative;
+		bottom: 15px;
+		width: 58px;
+		height: 50px;
+		border: 0px;
+	}
+	#menuPrincipal ul li a{
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 25px;
+		color: #000000;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	#menuPrincipal ul li a:hover{
+		color: #DC0000;
+	}
+	/*nombre de usuario*/
+	#menuPrincipal ul li p{
+		font-size: 20px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		color: red;
+		margin-right: 55px;
+		margin-top: 10px;
+	}
+	
+	/*recordarme*/
+	#divClave input[type="checkbox"]{
+		margin-left: 7px;
+	}
+	#divClave span{
+		font-size: 15px;
+		padding-right: 7px;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+
+	#menuPrincipal button{
+		background-color: white;
+		width: 100px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		border: 1px solid #ff0000;
+		color: #FF0000;
+	}
+		#menuPrincipal button[type='button']{
+			position: relative;
+			margin-right: 20px;
+			bottom: 0px;
+		}
+			#menuPrincipal button[type='submit']{
+				position: relative;
+				bottom: 0px;
+			}
+			#salir{
+				top: 10px;
+			}
+
+	/*Formulario de registro (Modal)*/
+	.modal-header{
+		background-color: red;
+		color: white;
+		font-size: 18px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+		.modal-header span, .modal-header span:hover{
+			color: white;
+		}
+	.modal-body{
+		color: red;
+		font-size: 16px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+		.modal-body input{
+			border: 1px solid red;
+		}
+	.modal-footer{
+		background-color: red;
+		color: white;
+	}
+		.modal-footer button{
+			color: red;
+		}
+
+	@media(max-width: 1141px){
+		#menuPrincipal ul li p{
+			margin-left: 18px;
+		}
+		#menuPrincipal ul li button, #menuPrincipal input[type="text"], #menuPrincipal input[type="password"], #menuPrincipal button[type='submit'], #divClave input[type="checkbox"], #divClave span{
+			margin-left: 18px;
+		}
+		#divClave span{
+			margin-left: 3px;
+		}
+/*		#menuPrincipal input[type="text"], #menuPrincipal input[type="password"]{
+			max-width: 1141px;
+		}*/
+	}
+
+	@media(max-width: 1141px){
+		/*esto es un codigo que sobreescribe el punto de quiebre (collapse) del menu y lo hace hamburguesa*/
+		.navbar-header {
+	        float: none;
+	    }
+	    .navbar-left,.navbar-right {
+	        float: none !important;
+	    }
+	    .navbar-toggle {
+	        display: block;
+	    }
+	    .navbar-collapse {
+	        border-top: 1px solid transparent;
+	        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	    }
+	    .navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+		}
+	    .navbar-collapse.collapse {
+	        display: none!important;
+	    }
+	    .navbar-nav {
+	        float: none!important;
+			margin-top: 7.5px;
+		}
+		.navbar-nav>li {
+	        float: none;
+	    }
+	    .navbar-nav>li>a {
+	        padding-top: 10px;
+	        padding-bottom: 10px;
+	    }
+	    .collapse.in{
+	  		display:block !important;
+		}
+	}
+
+#footer{
+	background-color: #4d4d4d;
+	padding: 35px;
+}
+	#footer #informacion{
+		padding-top: 35px;
+		color: white;
+	}
+		#footer #informacion h4{
+			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		}
+	#footer #informacion ul{
+		list-style: none;
+		text-align: left;
+		margin-left: 85px;
+	}
+	#footer #informacion a{
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		color: #9d9d9d;
+	}

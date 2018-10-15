@@ -1,0 +1,62 @@
+/*Jumbotron:*/
+.jumbotron{
+	background-color: red;
+	color: white;
+	font-family: 'Asap', sans-serif;
+}
+	.jumbotron #contenedor p{
+		color: white;
+	}
+	.jumbotron #contenedor a{
+		background-color: #3C9C21;
+		color: white;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border: 1px solid #FFFFFF;
+	}
+
+/*Cada tema*/
+#filaContenedor{
+	margin-bottom: 30px;
+}
+
+/*Portada del tema*/
+#portada{
+	background-color: transparent;
+}
+	#portada img{
+		width: 600px;
+		height: 300px;
+	}
+
+/*Contenido del tema*/
+#descripcion{
+	background-color: #F4F4F4;
+	height: 300px;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;	
+}
+	#descripcion h2{
+		font-size: 28px;
+		color: #505050;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		text-align: center;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		overflow:hidden;
+		margin-bottom: 2px;
+		border-bottom: 1px solid #D1D1D1;
+	}
+
+	.textoHistoria{
+		height: 150px;
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    margin-bottom: 5px;
+	}
+		#descripcion p{
+			text-align: left;
+			font-size: 10px;
+			max-height: 250px;
+		}

@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: EstudiantesDeLP
+        psr4_prefix: EstudiantesDeLP
+        src_path: app

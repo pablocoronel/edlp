@@ -1,0 +1,92 @@
+#filaBotonesEditarBorrar{
+	margin-bottom: 15px;
+}
+	#botonesEditarBorrar{
+		margin-top: 15px;
+	}
+#titulo{
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #EB0000;
+	color: #EB0000;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	overflow: hidden;
+}
+
+#contenido{
+	margin-bottom: 25px;
+	background-color: #F4F4F4;
+	border-top: 1px solid #EB0000;
+	border-bottom: 1px solid #EB0000;
+	min-height: 100px;
+	padding: 10px;
+}
+
+#comentariosEncabezado{
+	background-color: #FF0000;
+	font-size: 25px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	padding-left: 25px;
+	color: #FFFFFF;
+	border-radius: 15px 0px 0px 0px;
+	-moz-border-radius: 15px 0px 0px 0px;
+	-webkit-border-radius: 15px 0px 0px 0px;
+	border: 0px solid #000000;
+}
+	#cadaComentario{
+		border-left: 2px solid #E6D156;
+		border-bottom: 2px solid #E6D156;
+		border-radius: 0px 0px 0px 15px;
+		-moz-border-radius: 0px 0px 0px 15px;
+		-webkit-border-radius: 0px 0px 0px 15px;
+	}
+		#cadaComentario .media .media-body h4{
+			font-size: 20px;
+			font-weight: bold;
+			font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		}
+		#cadaComentario .media .media-body p{
+			overflow: hidden;
+			font-size: 18px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+#comentariosAgregar{
+	background-color: #F1F1F1;
+	border-left: 2px solid #E6D156;
+	border-bottom: 2px solid #E6D156;
+	border-radius: 0px 0px 0px 15px;
+	-moz-border-radius: 0px 0px 0px 15px;
+	-webkit-border-radius: 0px 0px 0px 15px;
+	margin-bottom: 15px;
+}
+	#comentariosTitulo{
+		margin-top: 5px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	#comentariosAgregar input[type='text']{
+		height: 35px;
+	}
+	#comentariosAgregar input[type='text'], textarea{
+		width: 500px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		border: 1px solid #C3BDC3;
+		padding: 15px;
+	}
+	#comentariosAgregar label{
+		width: 500px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	@media (max-width: 768px) {
+		#comentariosAgregar input[type='text'], textarea{
+			width: 100%;
+		}
+		#comentariosAgregar label{
+			margin-left: 15px;
+		}
+	}

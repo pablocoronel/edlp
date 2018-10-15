@@ -1,0 +1,47 @@
+.jumbotron{
+	background-color: red;
+	color: white;
+	font-family: 'Asap', sans-serif;
+}
+	.jumbotron .container p{
+		color: white;
+	}
+
+.separacionSuperior{
+	height: 30px;
+}
+#idolos{
+	margin-bottom: 25px;
+}
+#idolos article{
+	border-top: 1px solid red;
+}
+	#idolos #bilardo{
+		border-top: 0px;
+	}
+
+.page-heading h1{
+	color: red;
+}
+
+#idolos h2{
+	color: red;
+}
+
+#idolos img{
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#idolos p, #idolos ul li{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1006px){
+	##idolos img{
+		width: 100%;
+		margin-bottom: 15px;
+		margin-right: 0px;
+	}
+}

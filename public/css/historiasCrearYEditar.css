@@ -1,0 +1,65 @@
+#contenedor{
+	margin-top: 70px;
+}
+#rowContainer{
+	background-color: #F1F1F1;
+	border: 1px solid silver;
+}
+#editor{
+	background-color: #F1F1F1;
+	min-height: 580px;
+	border-right: 1px solid silver;
+}
+	#editor .alert{
+		margin-top: 15px;
+	}
+	#editor .titulos{
+		background-color: #FF0000;
+		padding: 7px;
+		margin-bottom: 7px;
+		border-top: 3px solid #FF0000;
+		border-bottom: 3px solid #FF0000;
+		font-size: 18px;
+		bottom: 1px;
+		color: white;
+	}
+
+	#rowImagenDePortada{
+		height: 30px;
+	}
+	#editor input[type="checkbox"]{
+		margin-left: 20px;
+		margin-bottom: 15px;
+	}
+	#editor #botonEnviar{
+		margin-bottom: 25px;
+	}
+
+#requisitos{
+	background-color: #F1F1F1;
+	min-height: 630px;
+	padding: 0px;
+}
+	#requisitos .titulos{
+		background-color: #FF0000;
+		padding: 7px;
+		margin-bottom: 7px;
+		border-top: 3px solid #FF0000;
+		border-bottom: 3px solid #FF0000;
+		font-size: 18px;
+		bottom: 0px;
+		color: white;
+	}
+	#requisitos #textoRequisitos{
+		padding: 15px;
+		font-size: 16px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: black;
+	}
+
+@media (max-width: 768px){
+	#requisitos{
+		height: 300px;
+		min-height: 0px;
+	}
+}

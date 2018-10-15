@@ -1,0 +1,102 @@
+#introduccion{
+	background-color: white;
+}
+	#imagenCentral{
+		width: 170px;
+	}
+		#imagenCentral, #textoEscudoCentral:hover{
+			cursor: pointer;
+			cursor: hand;
+		}
+	#textoEscudoCentral{
+		/*font-family: 'Asap', sans-serif;*/
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 50px;
+		color: #E8E8E8;
+	}
+	#botonCentral{
+		position: relative;
+		margin-bottom: 40px;
+		width: 150px;
+		font-size: 22px;
+		background-color: #3C9C21;
+		color: white;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border: 2px solid #FFFFFF;
+	}
+
+#idolos{
+	background-color: #F8F8EF;
+	padding-bottom: 25px;
+}
+	#idolos #encabezadoTitulos h2{
+		color: black;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 35px;
+	}
+
+	#idolos .media{
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+		#idolos img{
+			border-style: solid;
+			border-width: 5px;
+			border-color: silver;
+			float: left;
+		}
+		#idolos h3{
+			font-family: 'Asap', sans-serif;
+			font-size: 27px;
+			color: #1f1f1f;
+		}
+		#idolos h4{
+			font-size: 18px;
+			font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		}
+		#idolos p{
+			font-size: 16px;
+			font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+			color: black;
+		}
+			#idolos p span{
+				color: #DBCE14;
+			}
+
+#titulos{
+	background-color: #fa0f0f;
+	font-family: verdana;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+	#titulos #encabezadoTitulos h2{
+		color: white;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 35px;
+	}
+/*		#copas .cadaCopa{
+			height: 290px;
+		}*/
+		#copas h4{
+			font-size: 16px;
+			font-family: 'Asap', sans-serif; 
+			color: black;
+		}
+		#copas a{
+			text-decoration: none;
+		}
+		.imgCopas{
+			width: 50px;
+		}
+		/*clase de medida de la grilla menor a xs*/
+		.col-md-offset-1point5 {
+		    margin-left: 12.5%;
+		}
+
+@media(max-width: 768px){
+	#imagenCentral{
+		width: 100px;
+	}
+}
